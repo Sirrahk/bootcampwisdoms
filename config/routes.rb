@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  'root wisdoms#index'
+  root 'wisdoms#index'
 end
