@@ -1,1 +1,10 @@
-<h1>Welcome to my Awesome Web App</h1>
+<%= @wisdoms.each do |wisdom| %>
+
+<h1> BootCamp Wisdoms Learned Thus Far</h1>
+    <div>
+        <p><%= wisdom.learnedwisdoms %></p>
+        <i><%= wisdom.name %></i>
+    </div>
+    
+</hr>
+<% end %>
