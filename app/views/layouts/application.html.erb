@@ -10,6 +10,35 @@
   </head>
 
   <body>
-    <%= yield %>
+     <header class ="row">
+  
+        <div class = "col-8 slogan">
+            Jewels picked up on this journey to Web Developer
+        </div>
+     
+        <div class = "col-3 links">
+            <%= link_to 'About Wisdoms', '#' %>
+        </div>     
+    </header>
+    
+    <hr  />
+    
+        <br class= "clear" />
+    
+   <div class ="container">
+        <%= yield %>
+   </div>
+   
+    
+   <div class ="footer">
+    <div class="container">
+     <div class = "row">
+        <div class="col-12 footer-blurb">Quiz Lesson 1 created by Keara Harrius</p>
+     </div>
+    </div>
+   </div> 
+   
+   
+   
   </body>
 </html>

@@ -1,1 +1,63 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Chilanka|Gayathri|Livvic&display=swap');
+
+.clear {
+    clear: both;
+}
+
+.slogan {
+    font-family: 'Gayathri', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: #27226B;
+    
+}
+
+
+h1 {
+    font-family: 'Livvic', cursive;
+    color: #27226B;
+    font-size: 25px;
+}
+
+h2{
+    font-family: 'Gayathri', cursive;
+    color: #068259;
+    font-size: 20px;
+}
+.links a {
+    color: #068259;
+    font-family: 'Gayathri', cursive;
+    font-size: 20px;
+    border-bottom: 2px solid #606362;
+}
+
+.links {
+  padding-top: 26px;
+  text-align: right;
+}
+
+header {
+    border-top: 8px dotted #068259;
+    border-bottom: 8px dotted #068259;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  
+}
+
+.footer-blurb {
+    font-family: 'Chilanka', cursive;
+    text-align: right    
+}
+
+.about-wisdoms{
+    color: #068259;
+    font-family: 'Gayathri', cursive;
+    font-size: 25px;
+}

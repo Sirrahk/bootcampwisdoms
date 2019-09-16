@@ -1,10 +1,17 @@
-<%= @wisdoms.each do |wisdom| %>
+<% @wisdoms.each do |wisdom| %>
 
-<h1> BootCamp Wisdoms Learned Thus Far</h1>
     <div>
-        <p><%= wisdom.learnedwisdoms %></p>
-        <i><%= wisdom.name %></i>
-    </div>
-    
+        <br />
+        
+        <h1> <u><b> Jewels picked up: </u></b> </h2>
+       
+        <br />
+        
+        <h2> <%= wisdom.learnedwisdoms %></h2>
+        
+        <br />
+  </div>
+  
 </hr>
+
 <% end %>
