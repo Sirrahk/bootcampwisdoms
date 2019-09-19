@@ -26,7 +26,7 @@ h2{
     font-size: 20px;
 }
 .links a {
-    color: #068259;
+    color: #AC1E39;
     font-family: 'Gayathri', cursive;
     font-size: 20px;
     border-bottom: 2px solid #606362;
@@ -52,12 +52,20 @@ header {
 }
 
 .footer-blurb {
+    color: #AC1E39;
     font-family: 'Chilanka', cursive;
-    text-align: right    
+    text-align: right 
 }
 
 .about-wisdoms{
     color: #068259;
     font-family: 'Gayathri', cursive;
-    font-size: 25px;
+    font-size: 30px;
+    
+}
+
+.about-blurb{
+    font-family: 'Chilanka', cursive;
+    text-align: center;
+    color: #606362;
 }
