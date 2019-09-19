@@ -7,18 +7,28 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
   </head>
 
   <body>
      <header class ="row">
-  
-        <div class = "col-8 slogan">
+        <div class= "col-3">
+            <%= link_to root_path, class: 'logo' do %>
+                <div class = "circle">
+                </div>
+            <% end %>
+        </div>
+        <div class = "col col-sm-4 hidden-xs-down slogan">
             <b>Jewels picked up on this journey to Web Developer</b>
         </div>
      
-        <div class = "col-3 links">
+        <div class = "col-3 offset-1 offset-sm-0 col-sm-5 links">
             <%= link_to 'About Wisdoms', about_path %>
-        </div>     
+        </div>
+        
+        
     </header>
     
     <hr  />
